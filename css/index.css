@@ -108,6 +108,13 @@ header .logo img {
     width: 100%;
 }
 
+form {
+    line-height: 3;
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
 .header-container {
     width: 100%;
     flex-flow: row wrap;
