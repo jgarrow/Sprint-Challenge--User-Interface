@@ -289,3 +289,25 @@ footer nav a {
 #box10 {
     background: dodgerblue;
 }
+
+@media screen and (max-width: 900px) {
+    header, footer, .container, .middle-content.about {
+        width: 100%;
+    }
+
+    .middle-content .boxes {
+        flex-flow: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .middle-content .about-box {
+        width: calc(100% - 2rem);
+    }
+}
